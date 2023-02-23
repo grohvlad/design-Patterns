@@ -6,5 +6,4 @@ public class Main {
         cafe.workFor_n_Days(30);
         cafe.getStatistics();
     }
-
 }

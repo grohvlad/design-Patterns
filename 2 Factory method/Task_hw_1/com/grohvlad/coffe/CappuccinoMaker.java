@@ -4,8 +4,8 @@ import com.grohvlad.ingredienPortions.*;
 
 import java.util.Map;
 
-public class AmericanoMaker implements CoffeeMachine {
-    private final String drinkName = "Americano";
+public class CappuccinoMaker implements CoffeeMachine {
+    private final String drinkName = "Cappuccino";
     @Override
     public Coffee makeCoffee(Map<String, IngredientPortion> portionsToMakeCoffee) {
         Map<String, Integer> recipe = Data.getRecipe(drinkName);
@@ -15,6 +15,6 @@ public class AmericanoMaker implements CoffeeMachine {
                 return null;
             }
         }
-        return new Americano();
+        return new Cappuccino();
     }
 }

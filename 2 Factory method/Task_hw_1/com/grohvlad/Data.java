@@ -1,10 +1,8 @@
 package com.grohvlad;
 
-import com.grohvlad.coffe.AmericanoMaker;
-import com.grohvlad.coffe.CoffeeMachine;
-import com.grohvlad.coffe.EspressoMaker;
-import com.grohvlad.coffe.LatteMaker;
+import com.grohvlad.coffe.*;
 import com.grohvlad.ingredienPortions.CoffeePortionCreator;
+import com.grohvlad.ingredienPortions.CreamPortionCreator;
 import com.grohvlad.ingredienPortions.IngredientPortionCreator;
 import com.grohvlad.ingredienPortions.SugarPortionCreator;
 
@@ -21,10 +19,10 @@ public class Data{
     public Integer getRentCost(){ return rentCost;}
 
     private final Map<String, Map<String,Integer>> Market = new HashMap<>(){{
-//        put("Milk", new HashMap<>(){{
-//            put("portion", 900);  //900 g
-//            put("cost", 32);      //32 UAH
-//        }});
+        put("Cream", new HashMap<>(){{
+            put("portion", 500);  //500 g
+            put("cost", 95);      //95 UAH
+        }});
         put("Coffee", new HashMap<>(){{
             put("portion", 1000);  //1000 g
             put("cost", 400);      //400 UAH
@@ -50,6 +48,11 @@ public class Data{
         put("Latte", new HashMap<>(){{
             put("Coffee",5);
             put("Sugar",10);
+        }});
+        put("Cappuccino", new HashMap<>(){{
+            put("Coffee",4);
+            put("Sugar",15);
+            put("Cream",100);
         }});
     }};
     public static Map<String,Integer> getRecipe(String nameOfOrder){
@@ -91,23 +94,28 @@ public class Data{
     public float getCPU(String nameOfIngredient){
         return calculateCPU(Market.get(nameOfIngredient));
     }
+
     ///////////////////////////////////////////////////
     //Ingredient source and coffee programs
     ///////////////////////////////////////////////////
     private final IngredientPortionCreator coffeePortionSource = new CoffeePortionCreator();
     private final IngredientPortionCreator sugarPortionSource = new SugarPortionCreator();
+    private final IngredientPortionCreator creamPortionSource = new CreamPortionCreator();
     private final Map<String, IngredientPortionCreator> ingredientSource = new HashMap<>(){{
         put("Coffee", coffeePortionSource);
         put("Sugar", sugarPortionSource);
+        put("Cream", creamPortionSource);
     }};
 
     private final CoffeeMachine espressoMachineProgram = new EspressoMaker();
     private final CoffeeMachine americanoMachineProgram = new AmericanoMaker();
     private final CoffeeMachine latteMachineProgram = new LatteMaker();
+    private final CoffeeMachine cappuccinoMachineProgram = new CappuccinoMaker();
     private final Map<String, CoffeeMachine> coffeeMachinePrograms = new HashMap<>(){{
         put("Americano", americanoMachineProgram);
         put("Espresso", espressoMachineProgram);
         put("Latte", latteMachineProgram);
+        put("Cappuccino", cappuccinoMachineProgram);
     }};
 
     public CoffeeMachine chooseCoffeeMachineProgram (String coffee){
