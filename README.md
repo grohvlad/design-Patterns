@@ -4,6 +4,7 @@ Mostly home assignments
 
 ---
 [Block 1 UML OOP](#block-1-uml-oop)
+[Block 2 Factory Method](#block-2-factory-method)
 
 ---
 
@@ -34,3 +35,10 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 <h3> Home work 1 Task 3 </h3>
 <img src="https://user-images.githubusercontent.com/108753646/218086243-8623061b-84e6-4efb-8994-3c066b3026a4.png" alt="UML diagram 5" width=600>
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/1%20UML%20diagrams/Task_hw_3/src">Code</a>
+
+## Block 2 Factory Method
+<h3> Home work 2 Task 1 </h3>
+Реалізовано деталізовану модель роботи кафе із використанням <b>фабричного методу</b> у двох реалізаціях: види кави та види інгредієнтів для кави. При чому параметри роботи кафе зберігаються в окремому класі й можуть бути швидко й локально зміненими. Замовлення +- випадково рівномірно розподіляються з використанням нормального розподілу. Заробіток кафе складається зі сталої рівної прибавки до всіх видів кави. Модель легко маштабується та піддається змінам.
+#### UML:
+<img src="https://user-images.githubusercontent.com/108753646/221120411-9d314a8c-b3fa-4b0a-8b33-7bd8ad3d3675.png" alt="UML diagram 5" width=600>
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/1%20UML%20diagrams/Task_hw_1/src">Realization</a>
