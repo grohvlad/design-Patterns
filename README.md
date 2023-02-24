@@ -40,7 +40,7 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 <h3> Home work 2 Task 1 </h3>
 Реалізовано деталізовану модель роботи кафе із використанням <b>фабричного методу</b> у двох реалізаціях: види кави та види інгредієнтів для кави. При чому параметри роботи кафе зберігаються в окремому класі й можуть бути швидко й локально зміненими. Замовлення +- випадково рівномірно розподіляються з використанням нормального розподілу. Заробіток кафе складається зі сталої рівної прибавки до всіх видів кави. Модель легко маштабується та піддається змінам.
 #### UML:
-<img src="https://user-images.githubusercontent.com/108753646/221127572-8ed308c3-07a8-44b7-af54-f8eb2ef2807c.png" alt="UML diagram 6" width=600>
+<img src="https://user-images.githubusercontent.com/108753646/221127572-8ed308c3-07a8-44b7-af54-f8eb2ef2807c.png" alt="UML diagram 6">
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/2%20Factory%20method/Task_hw_1/com/grohvlad">Realization</a>
 
 
