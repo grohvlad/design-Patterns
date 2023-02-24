@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a11f0d85-f462-4480-9aa0-8c988e0bee48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/Task_hw_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/input3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/BiQuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/BiQuadraticEquationCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/Equation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/EquationCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/IEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/IEquationCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/QuadraticEquationCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/ICreateResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/IResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/Result_inf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/Result_inf_creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/Result_n.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/Result_n_creator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/input/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/input/input2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/input/input3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,7 +62,13 @@
     "jdk.selected.JAVA_MODULE": "19"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hrokh\Desktop\designPatterns\2 Factory method\Task_hw_2\src\com\grohvlad\input" />
+      <recent name="C:\Users\hrokh\Desktop\designPatterns\2 Factory method\Task_hw_2\src\com\grohvlad" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Task_hw_2" />
@@ -56,9 +76,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.grohvlad.Main" />
-      <module name="2 Factory method" />
+      <module name="Task_hw_2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.grohvlad.*" />
@@ -69,8 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.grohvlad.Main" />
+      <module name="2 Factory method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grohvlad.equation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
