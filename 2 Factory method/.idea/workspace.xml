@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a11f0d85-f462-4480-9aa0-8c988e0bee48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/coffe/Cappuccino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/coffe/CappuccinoMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/ingredienPortions/CreamPortion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/ingredienPortions/CreamPortionCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/Task_hw_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/input3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/coffe/AmericanoMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/coffe/AmericanoMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_1/com/grohvlad/Inventory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +43,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "19"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Task_hw_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.grohvlad.Main" />
       <module name="2 Factory method" />
@@ -62,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

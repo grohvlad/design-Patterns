@@ -8,8 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Inventory implements
-        ICafeInventory {
+public class Inventory implements ICafeInventory {
     ///////////////////////////////////////////////////
     //Cash
     ///////////////////////////////////////////////////
