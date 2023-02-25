@@ -1,6 +1,8 @@
 package com.grohvlad.result;
 
 import java.util.ArrayList;
+import java.util.Set;
+import java.util.HashSet;
 
 public class Result_n implements IResult{
     ArrayList<Double> results;
@@ -9,7 +11,11 @@ public class Result_n implements IResult{
     }
 
     private void addResult(IResult resultToAdd) {
+
         this.results.addAll(resultToAdd.getResult());
+        Set<Double> set = new HashSet<>(this.results);
+        this.results.clear();
+        this.results.addAll(set);
     }
 
     @Override

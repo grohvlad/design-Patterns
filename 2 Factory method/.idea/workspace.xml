@@ -5,22 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a11f0d85-f462-4480-9aa0-8c988e0bee48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/BiQuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/BiQuadraticEquation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/Equation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/Equation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/IEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/IEquation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/QuadraticEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/Result_n.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/Result_n.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/equation/BiQuadraticEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/equation/BiQuadraticEquation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/equation/Equation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/equation/Equation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/equation/IEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/equation/IEquation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/equation/QuadraticEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/equation/QuadraticEquation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/result/Result_n.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/result/Result_n.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

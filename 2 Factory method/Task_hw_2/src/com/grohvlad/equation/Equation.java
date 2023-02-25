@@ -7,12 +7,10 @@ public class Equation implements IEquation{
     protected int a;
     protected int b;
     protected int c;
-    protected IResult result;
     protected int[] condition;
     public Equation(int b, int c){
         this.b = b;
         this.c = c;
-        this.result = solve();
         this.condition = new int[]{b,c};
     }
     @Override
@@ -28,8 +26,6 @@ public class Equation implements IEquation{
             return res;
         }
     }
-    @Override
-    public IResult giveResult(){return result;}
     @Override
     public int[] giveCondition(){return condition;}
 }

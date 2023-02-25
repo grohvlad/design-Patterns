@@ -12,70 +12,71 @@ import java.util.*;
 public class Main
 {
     public static void main(String[] args) throws IOException {
-        IResult ex = getEquationTypeSolver("biquad").createEquation(1,0,0).giveResult();
-        System.out.println(ex.isInfinityResult());
-        System.out.println(ex.getResult());
+//        IResult ex = getEquationTypeSolver("biquad").createEquation(0,0,0).solve();
+//        System.out.println(ex.isInfinityResult());
+//        System.out.println(ex.getResult());
 
-//        String in = "./Task_hw_2\\src\\com\\grohvlad\\input\\input";
-//        String out = "./Task_hw_2\\src\\com\\grohvlad\\output\\output";
-//
-//        String line;
-//        IEquation equation;
-//        IResult result;
-//        Scanner sc;
-//        FileWriter fileOut;
-//        File fileToOut;
-//        String lineToOut;
-//        ArrayList<Double> maxMinResult;
-//
-//        int i = 1;
-//        File fileIn = new File(in+i+".txt");
-//        while(fileIn.exists()){
-//            sc = new Scanner(fileIn);
-//
-//            maxMinResult = new ArrayList<>();
-//            fileToOut = new File(out+i+".txt");
-//            if(!fileToOut.exists()){
-//                fileToOut.createNewFile();
-//            }
-//            fileOut = new FileWriter(out+i+".txt",false);
-//
-//
-//
-//            while (sc.hasNextLine()) {
-//                lineToOut = "";
-//                line = sc.nextLine();
-//                lineToOut += line;
-//
-//                int[] res = Arrays.stream(line.strip().split("\\s+")).mapToInt(Integer::parseInt).toArray();
-//
-//                if(res.length == 2){
-//                    equation = getEquationTypeSolver("eq").createEquation(0,res[0],res[1]);
-//                } else if(res.length == 3){
-//                    equation = getEquationTypeSolver("quad").createEquation(res[0], res[1], res[2]);
-//                } else if(res.length == 5){
-//                    equation = getEquationTypeSolver("biquad").createEquation(res[0],res[2],res[4]);
-//                } else {
-//                    System.out.printf("Something wrong with %s", res);
-//                    equation = null;
-//                }
-//
-//                if(equation != null){
-//                    result = equation.giveResult();
-//                    if(result.isInfinityResult()){
-//                        lineToOut += "infinite number of answers\n";
-//                    } else {
-//                        lineToOut += "   (number of answers: "+ result.getResult().size()+ "), answers: " + result.getResult() + "\n";
-//                    }
-//
-//                    fileOut.write(lineToOut);
-//                }
-//            }
-//
-//            fileOut.close();
-//            i++;
-//            fileIn = new File(in+i+".txt");
-//        }
+        String in = "./Task_hw_2\\src\\com\\grohvlad\\input\\input";
+        String out = "./Task_hw_2\\src\\com\\grohvlad\\output\\output";
+
+        String line;
+        IEquation equation;
+        IResult result;
+        Scanner sc;
+        FileWriter fileOut;
+        File fileToOut;
+        String lineToOut;
+        ArrayList<Double> maxMinResult;
+
+        int i = 1;
+        File fileIn = new File(in+i+".txt");
+        while(fileIn.exists()){
+            sc = new Scanner(fileIn);
+
+            maxMinResult = new ArrayList<>();
+            fileToOut = new File(out+i+".txt");
+            if(!fileToOut.exists()){
+                fileToOut.createNewFile();
+            }
+            fileOut = new FileWriter(out+i+".txt",false);
+
+
+
+            while (sc.hasNextLine()) {
+                lineToOut = "";
+                line = sc.nextLine();
+                lineToOut += line + " ".repeat(30 - line.length());
+
+
+                int[] res = Arrays.stream(line.strip().split("\\s+")).mapToInt(Integer::parseInt).toArray();
+
+                if(res.length == 2){
+                    equation = getEquationTypeSolver("eq").createEquation(0,res[0],res[1]);
+                } else if(res.length == 3){
+                    equation = getEquationTypeSolver("quad").createEquation(res[0], res[1], res[2]);
+                } else if(res.length == 5){
+                    equation = getEquationTypeSolver("biquad").createEquation(res[0],res[2],res[4]);
+                } else {
+                    System.out.printf("Something wrong with %s", res);
+                    equation = null;
+                }
+
+                if(equation != null){
+                    result = equation.solve();
+                    if(result.isInfinityResult()){
+                        lineToOut += "infinite number of answers\n";
+                    } else {
+                        lineToOut += "   (number of answers: "+ result.getResult().size()+ "), answers: " + result.getResult() + "\n";
+                    }
+
+                    fileOut.write(lineToOut);
+                }
+            }
+
+            fileOut.close();
+            i++;
+            fileIn = new File(in+i+".txt");
+        }
     }
     private static ICreateResult inf_creator = new Result_inf_creator();
     private static ICreateResult n_creator = new Result_n_creator();

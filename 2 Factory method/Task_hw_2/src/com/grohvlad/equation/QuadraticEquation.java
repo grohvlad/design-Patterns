@@ -5,11 +5,9 @@ import com.grohvlad.result.IResult;
 
 public class QuadraticEquation extends Equation implements IEquation{
     private int a;
-    private IResult result;
     public QuadraticEquation(int a, int b, int c) {
         super(b,c);
         this.a = a;
-        this.result = solve();
         this.condition = new int[]{a,b,c};
     }
 
@@ -28,7 +26,7 @@ public class QuadraticEquation extends Equation implements IEquation{
                     return res;
                 } else {
                     IResult res = Main.getEmptyResult("n").createResult();
-                    double dres = Math.sqrt((double) this.c/this.a);
+                    double dres = Math.sqrt((double) -this.c/this.a);
                     res.addToResult(dres);
                     res.addToResult(-dres);
                     return res;
