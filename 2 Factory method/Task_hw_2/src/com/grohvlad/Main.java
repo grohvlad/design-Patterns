@@ -3,27 +3,26 @@ package com.grohvlad;
 import com.grohvlad.equation.*;
 import com.grohvlad.result.*;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.*;
 
 public class Main
 {
-    public static void main(String[] args)
+    public static void main(String[] args) throws FileNotFoundException
     {
-        
-//        Equation eq = new Equation(3,5);
-//        eq.showEquation();
 
-//        File file = new File("./Task_hw_2\\src\\input1.txt");
+
+//        File file = new File("./Task_hw_2\\src\\com\\grohvlad\\input\\input1.txt");
 //        Scanner sc = new Scanner(file);
 //
 //        int i=0;
 //        String line;
-//        while (sc.hasNextLine()){
+//        while (sc.hasNextLine()) {
 //            line = sc.nextLine();
-//            String[] res = line.strip().split("\\s+");
-//            int[] intRes = Arrays.stream(res).mapToInt(num -> Integer.parseInt(num)).toArray();
-//            Arrays.stream(intRes).forEach(System.out::print);
-//            System.out.println("");
+//            int[] res = Arrays.stream(line.strip().split("\\s+")).mapToInt(Integer::parseInt).toArray();
+//            //res.length
+//        }
     }
     private static ICreateResult inf_creator = new Result_inf_creator();
     private static ICreateResult n_creator = new Result_n_creator();

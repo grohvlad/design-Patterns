@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a11f0d85-f462-4480-9aa0-8c988e0bee48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/BiQuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/BiQuadraticEquationCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/Equation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/EquationCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/IEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/IEquationCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/QuadraticEquationCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/ICreateResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/IResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/Result_inf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/Result_inf_creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/Result_n.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/result/Result_n_creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_hw_2/Equation.drawio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/input/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/input/input2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/input3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/input/input3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/BiQuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/BiQuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/Equation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/Equation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/IEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/equation/IEquation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -131,5 +117,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -17,7 +17,7 @@ public class BiQuadraticEquation extends Equation implements IEquation{
         if(this.c == 0){
             IResult res = Main.getEmptyResult("n").createResult();
             res.addToResult(0D);
-            IResult recres = Main.getEquationTypeSolver("eq").createEquation(0,a,b).solve();
+            IResult recres = Main.getEquationTypeSolver("quad").createEquation(a,0,b).solve();
             res = res.combineResult(recres);
             return res;
         }else {

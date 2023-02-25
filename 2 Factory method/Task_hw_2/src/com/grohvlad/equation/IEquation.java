@@ -4,4 +4,5 @@ import com.grohvlad.result.IResult;
 
 public interface IEquation {
     IResult solve();
+    IResult giveResult();
 }

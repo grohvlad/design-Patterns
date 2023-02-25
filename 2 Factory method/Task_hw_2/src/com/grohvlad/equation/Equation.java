@@ -17,13 +17,15 @@ public class Equation implements IEquation{
     public IResult solve(){
         if(this.b == 0 && this.c == 0){
             return Main.getEmptyResult("inf").createResult();
-        }else if (this.b ==0 && this.c!=0){
+        }else if (this.b == 0){
             return Main.getEmptyResult("n").createResult();
         } else {
             IResult res = Main.getEmptyResult("n").createResult();
-            double result = this.c/this.b;
+            double result = (double) -this.c / this.b;
             res.addToResult(result);
+            return res;
         }
-        return null;
     }
+    @Override
+    public IResult giveResult(){return result;}
 }
