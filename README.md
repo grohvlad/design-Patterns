@@ -43,4 +43,8 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 <img src="https://user-images.githubusercontent.com/108753646/221127572-8ed308c3-07a8-44b7-af54-f8eb2ef2807c.png" alt="UML diagram 6">
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/2%20Factory%20method/Task_hw_1/com/grohvlad">Realization</a>
 
-
+<h3> Home work 2 Task 2 </h3>
+Реалізовано модель вказану в завданні із використанням шаблонів фабричного методу. Результат роботи програми зберігається в папці output де вказано необхідну інформацію напроти кожного виразу з вхідних данних. Також в кінці кожного текстового файлу на виході надано відповідь по максимальому та мінімальному розв'язку. Реалізація пошуку цих значень можливо потребує покращення.
+#### UML:
+<img src="https://user-images.githubusercontent.com/108753646/221368369-cdefcb85-563d-43f5-8f18-5add4669ffc2.png" alt="UML diagram 7">
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/2%20Factory%20method/Task_hw_2/com/grohvlad">Realization</a>
