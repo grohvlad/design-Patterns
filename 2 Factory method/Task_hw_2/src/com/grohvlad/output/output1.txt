@@ -49,10 +49,13 @@
   72  -25   12                   (number of answers: 0), answers: []
   60   -2  -42                   (number of answers: 2), answers: [0.8534926807088794, -0.8201593473755461]
    0    0   22    0   15         (number of answers: 0), answers: []
-   0    0   18    0  -42         (number of answers: 0), answers: []
+   0    0   18    0  -42         (number of answers: 2), answers: [1.5275252316519468, -1.5275252316519468]
  -24    0   22    0  -12         (number of answers: 0), answers: []
    0    0   18    0    0         (number of answers: 1), answers: [0.0]
   28    0  -56    0   30         (number of answers: 0), answers: []
  -27    0    0    0    0         (number of answers: 1), answers: [0.0]
     1   0   -3    0    2         (number of answers: 4), answers: [1.4142135623730951, -1.4142135623730951, 1.0, -1.0]
     0   0    0    0    0      infinite number of answers
+
+In this file max result is 1.3269230769230769 in equation [52, -69]
+In this file min result is -2.125 in equation [0, 8, 17]

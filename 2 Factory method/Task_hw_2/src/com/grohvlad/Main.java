@@ -26,14 +26,14 @@ public class Main
         FileWriter fileOut;
         File fileToOut;
         String lineToOut;
-        ArrayList<Double> maxMinResult;
+        ArrayList<Double> maxMinArr;
+        ArrayList<IEquation> maxMinEqList;
 
         int i = 1;
         File fileIn = new File(in+i+".txt");
         while(fileIn.exists()){
             sc = new Scanner(fileIn);
 
-            maxMinResult = new ArrayList<>();
             fileToOut = new File(out+i+".txt");
             if(!fileToOut.exists()){
                 fileToOut.createNewFile();
@@ -41,7 +41,8 @@ public class Main
             fileOut = new FileWriter(out+i+".txt",false);
 
 
-
+            maxMinArr = new ArrayList<>();
+            maxMinEqList = new ArrayList<>();
             while (sc.hasNextLine()) {
                 lineToOut = "";
                 line = sc.nextLine();
@@ -67,11 +68,25 @@ public class Main
                         lineToOut += "infinite number of answers\n";
                     } else {
                         lineToOut += "   (number of answers: "+ result.getResult().size()+ "), answers: " + result.getResult() + "\n";
+                        if(result.getResult().size() == 1){
+                            maxMinArr.add(result.getResult().get(0));
+                            maxMinEqList.add(equation);
+                        }
                     }
 
                     fileOut.write(lineToOut);
                 }
             }
+
+            ArrayList<Double> maxMinArrCopy = new ArrayList<>(maxMinArr);
+            Collections.sort(maxMinArrCopy);
+            double min = maxMinArrCopy.get(0);
+            double max = maxMinArrCopy.get(maxMinArr.size()-1);
+            IEquation minEq = maxMinEqList.get(maxMinArr.indexOf(min));
+            IEquation maxEq = maxMinEqList.get(maxMinArr.indexOf(max));
+
+            fileOut.write("\nIn this file max result is " + max + " in equation " + Arrays.toString(maxEq.giveCondition()) + "\n");
+            fileOut.write("In this file min result is " + min + " in equation " + Arrays.toString(minEq.giveCondition()));
 
             fileOut.close();
             i++;

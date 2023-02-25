@@ -21,8 +21,15 @@ public class BiQuadraticEquation extends Equation implements IEquation{
             return res;
         }else {
             if(this.a == 0){
+                IResult res = Main.getEmptyResult("n").createResult();
                 IResult recres = Main.getEquationTypeSolver("eq").createEquation(0,b,c).solve();
-                return recres;
+                for(double powRes: recres.getResult()){
+                    if(powRes>0){
+                        res.addToResult(Math.sqrt(powRes));
+                        res.addToResult(-Math.sqrt(powRes));
+                    }
+                }
+                return res;
             }else{
                 IResult res = Main.getEmptyResult("n").createResult();
                 IResult recres = Main.getEquationTypeSolver("quad").createEquation(a,b,c).solve();
