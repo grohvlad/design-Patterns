@@ -10,6 +10,7 @@ public class QuadraticEquation extends Equation implements IEquation{
         super(b,c);
         this.a = a;
         this.result = solve();
+        this.condition = new int[]{a,b,c};
     }
 
     @Override
