@@ -1,14 +1,13 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         TransportFactory factory;
 
         factory = new VolvoFactory();
 
-        Bus bus = factory.buyBus(1,1);
-        bus.goByWay();
-
-
-
+        ArrayList<Bus> buses = factory.buyBuses(5);
+        buses.get(4).goByWay();
     }
 }
 

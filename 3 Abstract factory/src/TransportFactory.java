@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 
 interface TransportFactory {
-
-    Bus buyBus(int cost, int usageCost);
-    Tram buyTram(int cost, int usageCost);
-    Trolleybus buyTrolleybus(int cost, int usageCost);
+    ArrayList<Bus> buyBuses(int number);
+    ArrayList<Tram> buyTrams(int number);
+    ArrayList<Trolleybus> buyTrolleybuses(int number);
 }
