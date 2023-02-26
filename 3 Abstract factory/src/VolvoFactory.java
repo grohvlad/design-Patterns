@@ -1,7 +1,7 @@
-public class VolvoFactory extends TransportFactory{
+public class VolvoFactory implements TransportFactory{
 
     @Override
-    protected Bus buyBus(int cost, int usageCost) {
+    public Bus buyBus(int cost, int usageCost) {
         return new VolvoBus(cost, usageCost);
     }
 
