@@ -60,4 +60,4 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 #### UML:  
 <img src="https://user-images.githubusercontent.com/108753646/221438132-89504520-b059-42a9-bc1d-3f8ec8b3c625.png" alt="UML diagram 8" width=900>
 
-<a href="https://github.com/grohvlad/design-Patterns/tree/main/3%20%20Abstract%20factory/src/Task_hw2">Realization</a>
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/3%20Abstract%20factory/src/Task_hw2">Realization</a>
