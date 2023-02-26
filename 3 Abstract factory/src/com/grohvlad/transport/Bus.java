@@ -1,5 +1,9 @@
-public abstract class Tram {
-    public Tram(int cost, int usageCost) {
+package com.grohvlad.transport;
+
+
+public abstract class Bus {
+
+    public Bus(int cost, int usageCost) {
         this.cost = cost;
         this.usageCost = usageCost;
     }
@@ -12,8 +16,8 @@ public abstract class Tram {
         return usageCost;
     }
 
-    public void goByRails() {
-        System.out.println("Tram runs!");
+    public void goByWay() {
+        System.out.println("com.grohvlad.transport.Bus runs!");
     }
 
     protected int cost;       // Вартість одиниці транспорту

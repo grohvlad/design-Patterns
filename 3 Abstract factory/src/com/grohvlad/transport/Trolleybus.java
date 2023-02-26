@@ -1,6 +1,8 @@
-public abstract class Bus {
+package com.grohvlad.transport;
 
-    public Bus(int cost, int usageCost) {
+public abstract class Trolleybus {
+
+    public Trolleybus(int cost, int usageCost) {
         this.cost = cost;
         this.usageCost = usageCost;
     }
@@ -13,8 +15,8 @@ public abstract class Bus {
         return usageCost;
     }
 
-    public void goByWay() {
-        System.out.println("Bus runs!");
+    public void goByContactNetwork() {
+        System.out.println("com.grohvlad.transport.Trolleybus runs");
     }
 
     protected int cost;       // Вартість одиниці транспорту

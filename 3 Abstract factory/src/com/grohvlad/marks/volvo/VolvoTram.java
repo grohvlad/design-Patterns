@@ -1,4 +1,8 @@
-public class VolvoTram extends Tram{
+package com.grohvlad.marks.volvo;
+
+import com.grohvlad.transport.*;
+
+public class VolvoTram extends Tram {
     public VolvoTram(int cost, int usageCost){
         super(cost, usageCost);
     }

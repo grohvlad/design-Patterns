@@ -1,5 +1,7 @@
+package com.grohvlad.marks.volvo;
 
-public class VolvoTrolleybus extends Trolleybus{
+import com.grohvlad.transport.*;
+public class VolvoTrolleybus extends Trolleybus {
 
     public VolvoTrolleybus(int cost, int usageCost) {
         super(cost, usageCost);
