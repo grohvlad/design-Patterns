@@ -1,6 +1,6 @@
 package com.grohvlad.marks.volvo;
 
-import com.grohvlad.transport.*;
+import com.grohvlad.transport.Bus;
 
 public class VolvoBus extends Bus {
 

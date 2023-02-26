@@ -12,8 +12,24 @@ public abstract class TransportFactory {
         }
         return buses;
     }
+    public ArrayList<Tram> buyTrams(int number) {
+        ArrayList<Tram> trams = new ArrayList<>();
+        for(int i=0; i<number; i++){
+            trams.add(buyTram());
+        }
+        return trams;
+    }
+
+    public ArrayList<Trolleybus> buyTrolleybuses(int number) {
+        ArrayList<Trolleybus> trolleybuses = new ArrayList<>();
+        for(int i=0; i<number; i++){
+            trolleybuses.add(buyTrolleybus());
+        }
+        return trolleybuses;
+    }
 
     protected abstract Bus buyBus();
-//    ArrayList<com.grohvlad.transport.Tram> buyTrams(int number);
-//    ArrayList<com.grohvlad.transport.Trolleybus> buyTrolleybuses(int number);
+    protected abstract Tram buyTram();
+    protected abstract Trolleybus buyTrolleybus();
+
 }
