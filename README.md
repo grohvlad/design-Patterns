@@ -4,7 +4,9 @@ Mostly home assignments
 
 ---
 [Block 1 UML OOP](#block-1-uml-oop)  
-[Block 2 Factory Method](#block-2-factory-method)
+[Block 2 Factory Method](#block-2-factory-method)  
+[Block 3 Abstract Factory Method](#block-3-abstract-factory-method)
+
 
 ---
 
@@ -39,12 +41,23 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 ## Block 2 Factory Method
 <h3> Home work 2 Task 1 </h3>
 Реалізовано деталізовану модель роботи кафе із використанням <b>фабричного методу</b> у двох реалізаціях: види кави та види інгредієнтів для кави. При чому параметри роботи кафе зберігаються в окремому класі й можуть бути швидко й локально зміненими. Замовлення +- випадково рівномірно розподіляються з використанням нормального розподілу. Заробіток кафе складається зі сталої рівної прибавки до всіх видів кави. Модель легко маштабується та піддається змінам.
-#### UML:
+
+#### UML:  
 <img src="https://user-images.githubusercontent.com/108753646/221127572-8ed308c3-07a8-44b7-af54-f8eb2ef2807c.png" alt="UML diagram 6">
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/2%20Factory%20method/Task_hw_1/com/grohvlad">Realization</a>
 
 <h3> Home work 2 Task 2 </h3>
 Реалізовано модель вказану в завданні із використанням шаблонів фабричного методу. Результат роботи програми зберігається в папці output де вказано необхідну інформацію напроти кожного виразу з вхідних данних. Також в кінці кожного текстового файлу на виході надано відповідь по максимальому та мінімальному розв'язку. Реалізація пошуку цих значень можливо потребує покращення.
-#### UML:
+
+#### UML:  
 <img src="https://user-images.githubusercontent.com/108753646/221368369-cdefcb85-563d-43f5-8f18-5add4669ffc2.png" alt="UML diagram 7">
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/2%20Factory%20method/Task_hw_2/com/grohvlad">Realization</a>
+
+## Block 3 Abstract Factory Method
+<h3> Home work 3 Task 1 </h3>
+Реалізовано модель закупки громадського транспорту, що використовує метод абстрактна фабрика для додавання нових виробників. Також результатом вивидить результуючу вартість вибору фірми.
+
+#### UML:  
+<img src="https://user-images.githubusercontent.com/108753646/221438132-89504520-b059-42a9-bc1d-3f8ec8b3c625.png" alt="UML diagram 8" width=900>
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/3%20Abstract%20factory/src/Task_hw2">Realization</a>
