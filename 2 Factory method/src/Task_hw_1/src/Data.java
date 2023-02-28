@@ -21,6 +21,7 @@ public class Data{
     }
 
     public int checkBalance(){ return startAmountOfMoney;}
+
     public void putCash(int cashToPut) {
         if(cashToPut > 0){
             startAmountOfMoney += cashToPut;
@@ -37,10 +38,6 @@ public class Data{
         put("Latte", 40);
         put("Cappuccino", 45);
     }};
-
-    public void showMenu(){
-        System.out.println(menu.toString());
-    }
 
     public int drinksCost(String name){
         return menu.get(name);
