@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a11f0d85-f462-4480-9aa0-8c988e0bee48" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw_2/src/com/grohvlad/output/output3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/equation/BiQuadraticEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/equation/BiQuadraticEquation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_hw_2/com/grohvlad/output/output3.txt" afterDir="false" />
-    </list>
+    <list default="true" id="a11f0d85-f462-4480-9aa0-8c988e0bee48" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,22 +32,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "19"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hrokh\Desktop\designPatterns\2 Factory method\Task_hw_2\src\com\grohvlad\input" />
       <recent name="C:\Users\hrokh\Desktop\designPatterns\2 Factory method\Task_hw_2\src\com\grohvlad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Task_hw_2" />
@@ -96,9 +83,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
