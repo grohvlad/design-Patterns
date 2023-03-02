@@ -26,8 +26,8 @@ public abstract class CoffeeMachineMaker {
         this.satisfactionCoef = satisfactionCoef;
     }
 
-    abstract Coffee makeAmericano();
-    abstract Coffee makeCappuccino();
-    abstract Coffee makeEspresso();
-    abstract Coffee makeLatte();
+    public abstract Coffee makeAmericano();
+    public abstract Coffee makeCappuccino();
+    public abstract Coffee makeEspresso();
+    public abstract Coffee makeLatte();
 }
