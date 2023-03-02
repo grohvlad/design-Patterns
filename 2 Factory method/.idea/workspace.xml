@@ -5,8 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23e1772-7714-4f50-8492-c2a8a1ce99ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffee/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffee/Latte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/delonghi/DelonghiCappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/delonghi/DelonghiEspresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/delonghi/DelonghiLatte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/philips/PhilipsAmericano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/philips/PhilipsCappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/philips/PhilipsEspresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/philips/PhilipsLatte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/saeco/SaecoAmericano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/saeco/SaecoCappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/saeco/SaecoEspresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/saeco/SaecoLatte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/siemens/SiemensAmericano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/siemens/SiemensCappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/siemens/SiemensEspresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/siemens/SiemensLatte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachineMaker/CoffeeMachineMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachineMaker/PhilipsCoffeeMachineMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachineMaker/SaecoCoffeeMachineMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachineMaker/SiemensCoffeeMachineMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hard 2 Factory method/Task_hw_1/.$Cafe.drawio.dtmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffee/Bus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffee/Tram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffee/Trolleybus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/delonghi/HundaiBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/delonghi/DelonghiAmericano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/delonghi/HundaiTram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachine/delonghi/HundaiTrolleybus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachineMaker/HundaiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachineMaker/DelonghiCoffeeMachineMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachineMaker/SkodaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachineMaker/TransportFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 Abstract factory/src/Task_hw3/grohvlad/coffeeMachineMaker/VolvoFactory.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/hrokh/Desktop/designPatterns/design-Patterns/3 Abstract factory",
+    "last_opened_file_path": "C:/Users/hrokh/Desktop/designPatterns/design-Patterns/2 Factory method",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
