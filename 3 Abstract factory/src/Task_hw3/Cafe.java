@@ -1,11 +1,11 @@
 package Task_hw3;
 
+import Task_hw3.grohvlad.coffee.Coffee;
 import Task_hw3.grohvlad.coffeeMachineMaker.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
 
 public class Cafe{
 
@@ -18,71 +18,92 @@ public class Cafe{
             put("Siemens", new SiemensCoffeeMachineMaker(19_000, 190, 50 + 19 + 7));
         }};
 
-
-        final int N = 60;  // орієнтована кількість днів для покриття покупки
-        final int wantToEarnPerMonth = 15_000;
-        final int rentCost = 10_000;
-        final int workerSalary = 600;
-        int startMoney = 0;
-        int extra = 10;
-
         for(String coffeeMachineFactory: allFactories.keySet()){
             CoffeeMachineMaker coffeeMachine = allFactories.get(coffeeMachineFactory);
-
-            Cafe cafe = new Cafe(coffeeMachine, workerSalary,startMoney, rentCost);
+            Cafe cafe = new Cafe(coffeeMachine);
         }
     }
 
-    private WorkerInCafe worker;
-    private Data data;
+    private final int N = 60;  // орієнтована кількість днів для покриття покупки
+    private final int wantToEarnPerMonth = 15_000;
+    private final int rentCost = 10_000;
+    private final int workerSalary = 600;
+    private int startMoney = 0;
+
+
+    private Worker worker;
+    private Menu menu;
     private CoffeeMachineMaker coffeeMachine;
 
-    public Cafe(CoffeeMachineMaker coffeeMachine, int workerSalary, int startAmountOfMoney, int rentCost){
-        this.data = new Data(startAmountOfMoney, rentCost);
-        this.worker = findWorker(data, workerSalary);
+    public Cafe(CoffeeMachineMaker coffeeMachine){
+        this.menu = new Menu();
         this.coffeeMachine = coffeeMachine;
+        this.worker = findWorker(menu, workerSalary, coffeeMachine);
+        workFor_n_Days(N);
     }
 
-    private WorkerInCafe findWorker(Data data, Integer payPerDay){
-        return new Worker(data, payPerDay);
+    private Worker findWorker(Menu menu, Integer payPerDay, CoffeeMachineMaker coffeeMachine){
+        return new Worker(menu, coffeeMachine);
     }
 
 
     public void workFor_n_Days(Integer n) {
         Map<String, Integer> OPD;
+        int selfCost;
+        int orderCost;
+        int spendingPerDay;
+        int valueToChangeMenu;
 
         for(Integer day = 1; day <= n; day++){
-            if (n%28 == 0){worker.payForRent();}
             OPD = ordersPerDay();
 
-            worker.Order(OPD);
-            worker.getPaid();
+            orderCost = calculateCostOfOrder(OPD);
+            selfCost = calculateSelfCostOfOrder(worker.makeOrder(OPD));
+            spendingPerDay = (rentCost + wantToEarnPerMonth)/28 + coffeeMachine.getServCost() + workerSalary + coffeeMachine.getCost()/N;
+
+            valueToChangeMenu = -(orderCost - selfCost - spendingPerDay)/numberOfOPD(OPD);
+            menu.updateMenu(valueToChangeMenu);
         }
+        System.out.println(coffeeMachine.getName());
+        menu.showMenu();
     }
 
-    ///////////////////////////////////////////////////
-    //Generate orders
-    ///////////////////////////////////////////////////
-    private final int averageNumberOfVisitors = 40;
-    private final int deviationNumberOfVisitors = 10;
-    private final int averageNumberOfDrinksInCheck = 2;
-    private final float deviationNumberOfDrinksInCheck = 0.2F;
-    private Random random = new Random();
+    private Map<String, Integer> ordersPerDay(){
+        int satisfactionCoef = coffeeMachine.getSatisfactionCoef();
+        Map<String, Integer> OPD = new HashMap<>(){{
+            put("Americano", (int)(50*satisfactionCoef/100));
+            put("Espresso", (int)(45*satisfactionCoef/100));
+            put("Latte", (int)(35*satisfactionCoef/100));
+            put("Cappuccino", (int)(40*satisfactionCoef/100));
+        }};
+        System.out.println(OPD.toString());
+        return OPD;
+    }
 
-    private Map<String,Integer> ordersPerDay(){
-        Map<String, Integer> ordersPerDayList = new HashMap<>();
-        int numberOfConsumers = (int) (random.nextGaussian()* deviationNumberOfVisitors)+averageNumberOfVisitors;
-        int numberOfDrinks = (int)(numberOfConsumers*(random.nextGaussian()*0.5+averageNumberOfDrinksInCheck));
-
-        ArrayList<String> menuDrinks = new ArrayList<>(data.availableDrinks());
-        for(int i = menuDrinks.size(); i>1 ; i--){
-            int a = (int) (numberOfDrinks/i);
-            int forThisDrink = (int)(random.nextGaussian()*deviationNumberOfDrinksInCheck*a) + a;
-            numberOfDrinks -= forThisDrink;
-
-            ordersPerDayList.put(menuDrinks.get(menuDrinks.size()-i), forThisDrink);
+    private int numberOfOPD(Map<String, Integer> OPD){
+        int result = 0;
+        for(String i: OPD.keySet()){
+            result += OPD.get(i);
         }
-        ordersPerDayList.put(menuDrinks.get(menuDrinks.size()-1),numberOfDrinks);
-        return ordersPerDayList;
+        return result;
+    }
+
+    private Integer calculateCostOfOrder(Map<String, Integer> order){
+        int finalCost = 0;
+        int costPerDrink;
+
+        for(String itemFromOrder: order.keySet()){
+            costPerDrink = menu.drinksCost(itemFromOrder);
+            finalCost += costPerDrink * order.get(itemFromOrder);
+        }
+        return finalCost;
+    }
+
+    private Integer calculateSelfCostOfOrder(ArrayList<Coffee> coffeeForOrder){
+        int finalCost = 0;
+        for (Coffee coffee: coffeeForOrder){
+            finalCost += coffee.getSelfCost();
+        }
+        return finalCost;
     }
 }

@@ -7,9 +7,13 @@ public abstract class CoffeeMachineMaker {
     protected int cost;
     protected int servCost;
     protected int satisfactionCoef;
+    protected String name;
 
     public int getCost() {
         return this.cost;
+    }
+    public String getName(){
+        return this.name;
     }
 
     public int getServCost() {

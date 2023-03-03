@@ -8,6 +8,7 @@ import Task_hw3.grohvlad.coffee.Coffee;
 public class DelonghiCoffeeMachineMaker extends CoffeeMachineMaker {
     public DelonghiCoffeeMachineMaker(int cost, int servCost, int satisfactionCoef) {
         super(cost, servCost, satisfactionCoef);
+        this.name = "Delonghi";
     }
 
     @Override
