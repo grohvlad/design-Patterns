@@ -14,15 +14,6 @@ public class CarBuilder {
             0
     );
 
-//    public CarBuilder reset(){
-//        return new CarBuilder();
-//    }
-
-    public Car build(){
-        return new Car(this.color, this.body, this.motor, this.transmission);
-    }
-
-
     /////////////////////////////////////////////////////////////
     // Builder methods
     /////////////////////////////////////////////////////////////
@@ -44,5 +35,8 @@ public class CarBuilder {
     public CarBuilder setTransmission(Transmission transmission) {
         this.transmission = transmission;
         return this;
+    }
+    public Car build(){
+        return new Car(this.color, this.body, this.motor, this.transmission);
     }
 }
