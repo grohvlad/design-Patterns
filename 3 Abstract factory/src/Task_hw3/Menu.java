@@ -25,5 +25,5 @@ public class Menu {
         return menu.get(name);
     }
     public void showMenu(){
-        System.out.println(menu.toString());}
+        System.out.println(this.menu.toString());}
 }

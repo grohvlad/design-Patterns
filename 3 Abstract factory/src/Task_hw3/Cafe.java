@@ -24,7 +24,7 @@ public class Cafe{
         }
     }
 
-    private final int N = 60;  // орієнтована кількість днів для покриття покупки
+    private final int N = 16;  // орієнтована кількість днів для покриття покупки
     private final int wantToEarnPerMonth = 15_000;
     private final int rentCost = 10_000;
     private final int workerSalary = 600;
@@ -38,46 +38,31 @@ public class Cafe{
     public Cafe(CoffeeMachineMaker coffeeMachine){
         this.menu = new Menu();
         this.coffeeMachine = coffeeMachine;
-        this.worker = findWorker(menu, workerSalary, coffeeMachine);
+        this.worker = new Worker(menu, coffeeMachine);
         workFor_n_Days(N);
     }
 
-    private Worker findWorker(Menu menu, Integer payPerDay, CoffeeMachineMaker coffeeMachine){
-        return new Worker(menu, coffeeMachine);
-    }
-
-
     public void workFor_n_Days(Integer n) {
-        Map<String, Integer> OPD;
-        int selfCost;
-        int orderCost;
-        int spendingPerDay;
-        int valueToChangeMenu;
-
-        for(Integer day = 1; day <= n; day++){
-            OPD = ordersPerDay();
-
-            orderCost = calculateCostOfOrder(OPD);
-            selfCost = calculateSelfCostOfOrder(worker.makeOrder(OPD));
-            spendingPerDay = (rentCost + wantToEarnPerMonth)/28 + coffeeMachine.getServCost() + workerSalary + coffeeMachine.getCost()/N;
-
-            valueToChangeMenu = -(orderCost - selfCost - spendingPerDay)/numberOfOPD(OPD);
-            menu.updateMenu(valueToChangeMenu);
-        }
-        System.out.println(coffeeMachine.getName());
-        menu.showMenu();
-    }
-
-    private Map<String, Integer> ordersPerDay(){
         int satisfactionCoef = coffeeMachine.getSatisfactionCoef();
-        Map<String, Integer> OPD = new HashMap<>(){{
+        Map<String, Integer> averageOPD = new HashMap<>(){{
             put("Americano", (int)(50*satisfactionCoef/100));
             put("Espresso", (int)(45*satisfactionCoef/100));
             put("Latte", (int)(35*satisfactionCoef/100));
             put("Cappuccino", (int)(40*satisfactionCoef/100));
         }};
-        System.out.println(OPD.toString());
-        return OPD;
+
+
+        int orderCost = calculateCostOfOrder(averageOPD);
+        //System.out.println(orderCost);
+        int selfCost = calculateSelfCostOfOrder(worker.makeOrder(averageOPD));
+        int spendingPerDay = (rentCost + wantToEarnPerMonth)/28 + coffeeMachine.getServCost() + workerSalary + coffeeMachine.getCost()/N;
+
+        int valueToChangeMenu = -(orderCost - selfCost - spendingPerDay)/numberOfOPD(averageOPD);
+        menu.updateMenu(valueToChangeMenu);
+
+        System.out.println(coffeeMachine.getName() + " has average orders per day: " + numberOfOPD(averageOPD) + " and menu: ");
+        menu.showMenu();
+        System.out.println("");
     }
 
     private int numberOfOPD(Map<String, Integer> OPD){

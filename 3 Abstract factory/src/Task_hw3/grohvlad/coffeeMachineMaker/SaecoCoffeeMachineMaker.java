@@ -9,6 +9,7 @@ public class SaecoCoffeeMachineMaker extends CoffeeMachineMaker {
 
     public SaecoCoffeeMachineMaker(int cost, int servCost, int satisfactionCoef) {
         super(cost, servCost, satisfactionCoef);
+        this.name = "Saeco";
     }
 
     @Override

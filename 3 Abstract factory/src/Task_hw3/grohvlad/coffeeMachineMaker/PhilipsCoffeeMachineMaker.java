@@ -9,6 +9,7 @@ public class PhilipsCoffeeMachineMaker extends CoffeeMachineMaker {
 
     public PhilipsCoffeeMachineMaker(int cost, int servCost, int satisfactionCoef) {
         super(cost, servCost, satisfactionCoef);
+        this.name = "Philips";
     }
 
     @Override
