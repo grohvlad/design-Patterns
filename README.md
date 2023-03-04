@@ -5,7 +5,8 @@ Mostly home assignments
 ---
 [Block 1 UML OOP](#block-1-uml-oop)  
 [Block 2 Factory Method](#block-2-factory-method)  
-[Block 3 Abstract Factory Method](#block-3-abstract-factory-method)
+[Block 3 Abstract Factory Method](#block-3-abstract-factory-method)  
+[Block 4 Builder Method](#block-4-builder-method)
 
 
 ---
@@ -70,3 +71,12 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 <img src="https://user-images.githubusercontent.com/108753646/222904651-ca336a13-7573-4d70-9efb-1373eb6c8f02.png" alt="UML diagram 9" width=900>
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/3%20Abstract%20factory/src/Task_hw3">Realization</a>
+
+## Block 4 Builder Method
+<h3> Home work 3 Task 1 </h3>
+Реалізовано модель створення автомобіля з різними компонентами за допомогою методу Будівельник. Метод використовувався при зборі автомобіля та кузова для нього.
+
+#### UML:  
+<img src="https://user-images.githubusercontent.com/108753646/222930871-e6f7e8b5-e559-494d-9329-42cfc2b32d27.png" alt="UML diagram 10" width=600>
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/3%20Builder/src/Task_hw1">Realization</a>
