@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18a0a31f-62b4-47a6-83e3-84075058d801" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Body$BodyType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/BodyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/CarBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Door$Place.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Door.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Motor$MotorType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Motor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Seat$Place.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Transmission$TransmissionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_hw1/Transmission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Body$BodyType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/BodyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/CarBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Door$Place.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Door.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Motor$MotorType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Motor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Seat$Place.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Transmission$TransmissionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Transmission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/.$Builder.drawio.dtmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/Builder.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/Task_hw1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/src/Body.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/src/BodyBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/src/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/src/CarBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/src/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/src/Door.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/src/Motor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/src/Seat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw1/src/Transmission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw2/Task_hw2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_hw2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MYGzaXyFCznIGCCe3nmFqAkm1L" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "19"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hrokh\Desktop\designPatterns\design-Patterns\4 Builder\untitled\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Task_hw1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="4 Builder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="4 Builder" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18a0a31f-62b4-47a6-83e3-84075058d801" name="Changes" comment="" />
+      <created>1677937368088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677937368088</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
