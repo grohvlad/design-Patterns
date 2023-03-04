@@ -14,10 +14,6 @@ public class Worker{
         this.coffeeMachine = coffeeMachine;
     }
 
-    public void updateMenu(){
-
-    }
-
     public ArrayList<Coffee> makeOrder(Map<String, Integer> order) {
         ArrayList<Coffee> coffeeForOrder = new ArrayList<>();
 
