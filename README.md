@@ -52,7 +52,7 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 
 #### UML:  
 <img src="https://user-images.githubusercontent.com/108753646/221368369-cdefcb85-563d-43f5-8f18-5add4669ffc2.png" alt="UML diagram 7">
-<a href="https://github.com/grohvlad/design-Patterns/tree/main/2%20Factory%20method/Task_hw_2/com/grohvlad">Realization</a>
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/2%20Factory%20method/src/Task_hw_2/src">Realization</a>
 
 ## Block 3 Abstract Factory Method
 <h3> Home work 3 Task 1 </h3>
