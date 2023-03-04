@@ -5,7 +5,8 @@ Mostly home assignments
 ---
 [Block 1 UML OOP](#block-1-uml-oop)  
 [Block 2 Factory Method](#block-2-factory-method)  
-[Block 3 Abstract Factory Method](#block-3-abstract-factory-method)
+[Block 3 Abstract Factory Method](#block-3-abstract-factory-method)  
+[Block 4 Builder Method](#block-4-builder-method)
 
 
 ---
@@ -62,3 +63,20 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 <img src="https://user-images.githubusercontent.com/108753646/221438132-89504520-b059-42a9-bc1d-3f8ec8b3c625.png" alt="UML diagram 8" width=900>
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/3%20Abstract%20factory/src/Task_hw2">Realization</a>
+
+<h3> Home work 3 Task 2 </h3>
+Адаптовано модель кафе із використанням абстрактної фабрики для кавових машин. Завдання містить велику кількість залежностей, щщо від чого можна визначати й моделювати. Реалізована модель використовує значення середньої кількості відвідувачів(однаковий) та параметра кавоварки - коефіцієнт задоволення, щоб розрахувати кількість клієнтів для подальшого вирахування ціни кафе. Результатом виводиться середня кількість клієнтів за день та ціна кави у меню для наявних виробниів. 
+
+#### UML:  
+<img src="https://user-images.githubusercontent.com/108753646/222904651-ca336a13-7573-4d70-9efb-1373eb6c8f02.png" alt="UML diagram 9" width=900>
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/3%20Abstract%20factory/src/Task_hw3">Realization</a>
+
+## Block 4 Builder Method
+<h3> Home work 3 Task 1 </h3>
+Реалізовано модель створення автомобіля з різними компонентами за допомогою методу Будівельник. Метод використовувався при зборі автомобіля та кузова для нього.
+
+#### UML:  
+<img src="https://user-images.githubusercontent.com/108753646/222930871-e6f7e8b5-e559-494d-9329-42cfc2b32d27.png" alt="UML diagram 10" width=600>
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/3%20Builder/src/Task_hw1">Realization</a>
