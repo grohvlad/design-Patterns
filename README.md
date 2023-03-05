@@ -85,6 +85,6 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 Реалізовано модель створення текстового рядка використовуючи метод Будівельник.
 
 #### UML:  
-<img src="https://user-images.githubusercontent.com/108753646/222953674-7c595184-9707-4a11-b76e-2fa139bb981c.png" alt="UML diagram 11">
+<img src="https://user-images.githubusercontent.com/108753646/222953674-7c595184-9707-4a11-b76e-2fa139bb981c.png" alt="UML diagram 11" width=400>
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/4%20Builder/src/Task_hw2">Realization</a>
