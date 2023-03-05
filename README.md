@@ -77,6 +77,14 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 Реалізовано модель створення автомобіля з різними компонентами за допомогою методу Будівельник. Метод використовувався при зборі автомобіля та кузова для нього.
 
 #### UML:  
-<img src="https://user-images.githubusercontent.com/108753646/222930871-e6f7e8b5-e559-494d-9329-42cfc2b32d27.png" alt="UML diagram 10" width=600>
+<img src="https://user-images.githubusercontent.com/108753646/222953988-a34b1877-0a6a-4bf6-b012-50c047de8f12.png" alt="UML diagram 10" width=600>
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/4%20Builder/src/Task_hw1">Realization</a>
+
+<h3> Home work 3 Task 2 </h3>
+Реалізовано модель створення текстового рядка використовуючи метод Будівельник.
+
+#### UML:  
+<img src="https://user-images.githubusercontent.com/108753646/222953674-7c595184-9707-4a11-b76e-2fa139bb981c.png" alt="UML diagram 11" width=400>
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/4%20Builder/src/Task_hw2">Realization</a>
