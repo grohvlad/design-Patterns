@@ -6,8 +6,8 @@ Mostly home assignments
 [Block 1 UML OOP](#block-1-uml-oop)  
 [Block 2 Factory Method](#block-2-factory-method)  
 [Block 3 Abstract Factory Method](#block-3-abstract-factory-method)  
-[Block 4 Builder Method](#block-4-builder-method)
-
+[Block 4 Builder Method](#block-4-builder-method)  
+[Block 5 Prototype Method](#block-5-prototype-method)
 
 ---
 
@@ -88,3 +88,31 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 <img src="https://user-images.githubusercontent.com/108753646/222953674-7c595184-9707-4a11-b76e-2fa139bb981c.png" alt="UML diagram 11" width=400>
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/4%20Builder/src/Task_hw2">Realization</a>
+
+## Block 4 Builder Method
+<h3> Home work 4 Task 1 </h3>
+Реалізовано модель створення автомобіля з різними компонентами за допомогою методу Будівельник. Метод використовувався при зборі автомобіля та кузова для нього.
+
+#### UML:  
+<img src="https://user-images.githubusercontent.com/108753646/222953988-a34b1877-0a6a-4bf6-b012-50c047de8f12.png" alt="UML diagram 10" width=600>
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/4%20Builder/src/Task_hw1">Realization</a>
+
+<h3> Home work 4 Task 2 </h3>
+Реалізовано модель створення текстового рядка використовуючи метод Будівельник.
+
+#### UML:  
+<img src="https://user-images.githubusercontent.com/108753646/222953674-7c595184-9707-4a11-b76e-2fa139bb981c.png" alt="UML diagram 11" width=400>
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/4%20Builder/src/Task_hw2">Realization</a>
+
+## Block 5 Prototype Method
+<h3> Home work 5 Task 1 </h3>
+Реалізовано модель створення автомобіля з різними компонентами та з можливістю вкладеного клонуванняза допомогою методів Будівельник та Прототип. Прототип використовується у класах всіх складових автомобіля та у його власному. Потреби в додаванні інтерфейсу прототип, або в імплементації Clonable не було помічено оскільки при даній постановці задачі немає наборіб однакових класів чи наслідування. (Якби були клас автомобіль, мотоцикл, тягач, що складали б автопарк, чи були різні класи для сидінь або дверей тоді можна було б додати, а так має з'явитись у наступному завданні).
+
+#### UML:  
+<img src="https://user-images.githubusercontent.com/108753646/222967154-7ab2eb90-36ae-4b89-b608-35be26a0109f.png" alt="UML diagram 12" width=600>
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/5%20Prototype/src/Task_hw1">Realization</a>
+
+<h3> Home work 5 Task 2 </h3>
