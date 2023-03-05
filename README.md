@@ -116,3 +116,9 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/5%20Prototype/src/Task_hw1">Realization</a>
 
 <h3> Home work 5 Task 2 </h3>
+З класу рівнянь прибрано зайві класи абстрактної фабрики й додано метод прототип, який дозволяє клонувати рівняння для подальших імплементацій.
+
+#### UML:  
+<img src="https://user-images.githubusercontent.com/108753646/222984644-421d821b-24b9-4ff3-9ab9-0016d3f45451.png" alt="UML diagram 12" width=600>
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/5%20Prototype/src/Task_hw2">Realization</a>
