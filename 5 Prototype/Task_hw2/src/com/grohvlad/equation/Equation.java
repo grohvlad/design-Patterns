@@ -2,8 +2,6 @@ package com.grohvlad.equation;
 
 import com.grohvlad.result.*;
 
-import java.util.ArrayList;
-
 public class Equation implements IEquation{
 
     protected IResult emptyResult = new Result_n();

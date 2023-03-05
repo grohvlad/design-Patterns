@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23e1772-7714-4f50-8492-c2a8a1ce99ea" name="Changes" comment="" />
+    <list default="true" id="b23e1772-7714-4f50-8492-c2a8a1ce99ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/equation/Equation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/equation/Equation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/equation/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/equation/QuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/result/Result_n.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/result/Result_n.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

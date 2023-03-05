@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Result_n implements IResult{
-    ArrayList<Double> results;
+    private ArrayList<Double> results;
     public Result_n(){
         this.results = new ArrayList<>();
     }

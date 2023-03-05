@@ -1,8 +1,6 @@
 package com.grohvlad.equation;
 
 import com.grohvlad.result.IResult;
-import com.grohvlad.result.Result_inf;
-import com.grohvlad.result.Result_n;
 
 public class QuadraticEquation extends Equation implements IEquation {
     private int a;
