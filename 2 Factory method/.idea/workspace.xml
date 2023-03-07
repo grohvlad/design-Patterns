@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23e1772-7714-4f50-8492-c2a8a1ce99ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/equation/Equation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/equation/Equation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/equation/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/equation/QuadraticEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/result/Result_n.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5 Prototype/Task_hw2/src/com/grohvlad/result/Result_n.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6 Singletone/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/Task_hw1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/src/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
