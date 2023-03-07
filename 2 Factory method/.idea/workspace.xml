@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23e1772-7714-4f50-8492-c2a8a1ce99ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../6 Singletone/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/Task_hw1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/src/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6 Singleton/Task_hw2/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/out/production/Task_hw1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/out/production/Task_hw1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/out/production/Task_hw1/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/out/production/Task_hw1/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/out/production/Task_hw1/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/out/production/Task_hw1/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/out/production/Task_hw1/files/f1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/out/production/Task_hw1/files/f1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/Task_hw1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw1/Task_hw1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/src/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw1/src/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw1/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/src/Task_hw1/src/files/f1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw1/src/files/f1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../6 Singletone/untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../6 Singleton/untitled/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

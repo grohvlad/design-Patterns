@@ -1,0 +1,89 @@
+public class Director {
+
+    private Director() {
+    }
+
+    final private static Director instance = new Director();
+    public static Director getInstance(){
+        return instance;
+    }
+
+    public Car create_Hundai_Accent_2010(){
+        CarBuilder builder = new CarBuilder();
+        BodyBuilder bodyBuilder = new BodyBuilder();
+
+        Body body = bodyBuilder
+                .setType(Body.BodyType.Sedan)
+                .set_4_doors()
+                .set_5_seats()
+                .build();
+
+        Car result = builder
+                .setColor("White")
+                .setBody(body)
+                .setMotor(new Motor(Motor.MotorType.Gasoline,1.4F,95))
+                .setTransmission(new Transmission(Transmission.TransmissionType.Manual,5))
+                .build();
+        return result;
+    }
+
+    public Car create_Volkswagen_Amarok(){
+        CarBuilder builder = new CarBuilder();
+        BodyBuilder bodyBuilder = new BodyBuilder();
+
+        Body body = bodyBuilder
+                .setType(Body.BodyType.Pickup)
+                .set_5_seats()
+                .set_4_doors()
+                .build();
+
+        Car result = builder
+                .setBody(body)
+                .setMotor(new Motor(Motor.MotorType.Diesel,2.0F,140))
+                .setTransmission(new Transmission(Transmission.TransmissionType.Manual,6))
+                .setColor("White")
+                .build();
+
+        return result;
+    }
+
+    public Car create_Smart_Roadster(){
+        CarBuilder builder = new CarBuilder();
+        BodyBuilder bodyBuilder = new BodyBuilder();
+
+        Body body = bodyBuilder
+                .setType(Body.BodyType.Roadster)
+                .set_2_doors()
+                .set_2_seats()
+                .build();
+
+        Car result = builder
+                .setBody(body)
+                .setMotor(new Motor(Motor.MotorType.Gasoline,0.7F,60))
+                .setTransmission(new Transmission(Transmission.TransmissionType.Manual,6))
+                .setColor("Black")
+                .build();
+
+        return result;
+    }
+
+    public Car create_Volkswagen_T4(){
+        CarBuilder builder = new CarBuilder();
+        BodyBuilder bodyBuilder = new BodyBuilder();
+
+        Body body = bodyBuilder
+                .setType(Body.BodyType.Minivan)
+                .set_3_doors()
+                .set_8_seats()
+                .build();
+
+        Car result = builder
+                .setBody(body)
+                .setMotor(new Motor(Motor.MotorType.Diesel,2.4F,78))
+                .setTransmission(new Transmission(Transmission.TransmissionType.Manual,6))
+                .setColor("Black")
+                .build();
+
+        return result;
+    }
+}
