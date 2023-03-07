@@ -5,8 +5,6 @@ public class Main {
     public static void main(String[] args) {
         String path = "./src\\Task_hw1\\src\\files\\f1.txt";
 
-        Singleton.getInstance().writeFile(path,"",false); //clear file
-
         User user1 = new User("Ivan");
         User user2 = new User("Taras");
         User user3 = new User("Fedir");
@@ -33,6 +31,7 @@ public class Main {
             throw new RuntimeException(e);
         }
         System.out.println(Singleton.getInstance().readFile("./src\\Task_hw1\\src\\files\\f1.txt"));
+        Singleton.getInstance().writeFile(path,"",false); //clear file
 
     }
 }
