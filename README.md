@@ -7,8 +7,8 @@ Mostly home assignments
 [Block 2 Factory Method](#block-2-factory-method)  
 [Block 3 Abstract Factory Method](#block-3-abstract-factory-method)  
 [Block 4 Builder Method](#block-4-builder-method)  
-[Block 5 Prototype Method](#block-5-prototype-method)
-[Block 6 Singleton Method](#block-6-singleton-method)
+[Block 5 Prototype Method](#block-5-prototype-method)  
+[Block 6 Singleton Method](#block-6-singleton-method)  
 
 ---
 
@@ -128,9 +128,9 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 <h3> Home work 6 Task 1 </h3>
 Реалізовано шаблон проектування Одинак для читання та обробки текстових файлів у програмі. Створено клас умовних користувачів, котрі асинхронно використовують файл.
 
-<a href="https://github.com/grohvlad/design-Patterns/tree/main/6%20Singleton/Task_hw1/src">Realization</a>
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/6%20Singleton/src/Task_hw1/src">Realization</a>
 
 <h3> Home work 6 Task 2 </h3>
 До завдання з шаблоном проєктування Будівельник додано шаблон Одинак. Оскільки робота ведеься не з данними а зі створенням нових екземплярів класу, і цу є основним поточним завданням програми вибрано спосіб Одтнака, де він створюється з самого початку. (у нього не ресурсозатратний конструктор, як було б з базами даних)
 
-<a href="https://github.com/grohvlad/design-Patterns/tree/main/6%20Singleton/Task_hw2/src">Realization</a>
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/6%20Singleton/src/Task_hw2/src">Realization</a>
