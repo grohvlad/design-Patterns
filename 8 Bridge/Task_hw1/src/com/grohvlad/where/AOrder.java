@@ -4,7 +4,7 @@ import com.grohvlad.bevelage.IBeverage;
 
 import java.util.ArrayList;
 
-public abstract class Order implements IOrder{
+public abstract class AOrder implements IOrder{
     public enum Places{ InCafe, InWay}
     protected Places place;
     protected ArrayList<IBeverage> beverageOrder;

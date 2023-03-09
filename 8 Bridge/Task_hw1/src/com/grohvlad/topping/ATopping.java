@@ -1,10 +1,10 @@
 package com.grohvlad.topping;
 
-import com.grohvlad.Singleton;
-
 public abstract class ATopping implements ITopping {
     protected int cost;
-    protected Singleton.Topping type;
+
+    public enum Toppings{ None, Milk, Rum, Canella}
+    protected Toppings type;
 
     @Override
     public int getCost() {

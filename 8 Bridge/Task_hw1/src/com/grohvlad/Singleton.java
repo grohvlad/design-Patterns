@@ -2,6 +2,8 @@ package com.grohvlad;
 
 import java.util.HashMap;
 import java.util.Map;
+import com.grohvlad.bevelage.ABeverage;
+import com.grohvlad.topping.ATopping;
 
 public class Singleton {
     private Singleton(){}
@@ -11,25 +13,24 @@ public class Singleton {
         return singleton;
     }
 
-    public enum Beverage{ Tea, Coffee, Chocolate}
-    private final Map<Beverage,Integer> beverageCost = new HashMap<>(){{
-        put(Beverage.Tea, 10);
-        put(Beverage.Coffee, 15);
-        put(Beverage.Chocolate, 20);
+    private final Map<ABeverage.Beverages,Integer> beverageCost = new HashMap<>(){{
+        put(ABeverage.Beverages.Tea, 10);
+        put(ABeverage.Beverages.Coffee, 15);
+        put(ABeverage.Beverages.Chocolate, 20);
     }};
 
-    public enum Topping{ None, Milk, Rum, Canella}
-    private final Map<Topping,Integer> toppingCost = new HashMap<>(){{
-        put(Topping.None, 0);
-        put(Topping.Rum, 25);
-        put(Topping.Milk, 15);
-        put(Topping.Canella, 5);
+
+    private final Map<ATopping.Toppings,Integer> toppingCost = new HashMap<>(){{
+        put(ATopping.Toppings.None, 0);
+        put(ATopping.Toppings.Rum, 25);
+        put(ATopping.Toppings.Milk, 15);
+        put(ATopping.Toppings.Canella, 5);
     }};
 
-    public int getBeverageCost(Beverage beverage){
+    public int getBeverageCost(ABeverage.Beverages beverage){
         return beverageCost.get(beverage);
     }
-    public int getToppingCost(Topping topping){
+    public int getToppingCost(ATopping.Toppings topping){
         return toppingCost.get(topping);
     }
 }

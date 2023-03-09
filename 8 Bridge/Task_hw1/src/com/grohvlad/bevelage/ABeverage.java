@@ -1,11 +1,11 @@
 package com.grohvlad.bevelage;
 
 import com.grohvlad.topping.*;
-import com.grohvlad.Singleton;
 public abstract class ABeverage implements IBeverage {
     protected ITopping topping;
     protected int cost;
-    protected Singleton.Beverage beverage;
+    public enum Beverages{ Tea, Coffee, Chocolate}
+    protected Beverages beverage;
 
     @Override
     public void prepare() {

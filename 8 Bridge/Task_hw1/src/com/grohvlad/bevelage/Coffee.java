@@ -5,7 +5,7 @@ import com.grohvlad.topping.ITopping;
 
 public class Coffee extends ABeverage{
     public Coffee(ITopping topping) {
-        this.beverage = Singleton.Beverage.Coffee;;
+        this.beverage = Beverages.Coffee;;
         this.topping = topping;
         this.cost = Singleton.getInstance().getBeverageCost(beverage);
     }
