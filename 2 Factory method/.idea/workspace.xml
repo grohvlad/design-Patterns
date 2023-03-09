@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23e1772-7714-4f50-8492-c2a8a1ce99ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw2/Task_hw2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw2/src/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw2/src/BodyBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw2/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw2/src/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw2/src/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw2/src/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw2/src/Motor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw2/src/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6 Singleton/src/Task_hw2/src/Transmission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6 Singleton/Task_hw2/Task_hw2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6 Singleton/Task_hw2/src/Body.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6 Singleton/Task_hw2/src/BodyBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6 Singleton/Task_hw2/src/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6 Singleton/Task_hw2/src/CarBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6 Singleton/Task_hw2/src/Director.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6 Singleton/Task_hw2/src/Door.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6 Singleton/Task_hw2/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6 Singleton/Task_hw2/src/Motor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6 Singleton/Task_hw2/src/Seat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6 Singleton/Task_hw2/src/Transmission.java" beforeDir="false" />
-    </list>
+    <list default="true" id="b23e1772-7714-4f50-8492-c2a8a1ce99ea" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
