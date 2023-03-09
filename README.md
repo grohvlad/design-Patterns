@@ -9,6 +9,7 @@ Mostly home assignments
 [Block 4 Builder Method](#block-4-builder-method)  
 [Block 5 Prototype Method](#block-5-prototype-method)  
 [Block 6 Singleton Method](#block-6-singleton-method)  
+[Block 7 Adapter Method](#block-7-adapter-method)  
 
 ---
 
@@ -134,3 +135,10 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 До завдання з шаблоном проєктування Будівельник додано шаблон Одинак. Оскільки робота ведеься не з данними а зі створенням нових екземплярів класу, і цу є основним поточним завданням програми вибрано спосіб Одтнака, де він створюється з самого початку. (у нього не ресурсозатратний конструктор, як було б з базами даних)
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/6%20Singleton/src/Task_hw2/src">Realization</a>
+
+## Block 7 Adapter Method
+
+<h3> Home work 7 Task 2 </h3>
+Створено адаптер для бібліотеки методом iз використанням класу переходу.
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/7%20Adapter/src/Task_hw2/src">Realization</a>
