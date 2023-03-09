@@ -150,8 +150,10 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 <h3> Home work 8 Task 1 </h3>
 
 Проведно рефакторинг класів, із застосуванням шаблону проектування Міст.
+Додано ще одну реалізацію методу міст, котра включає в себе місце для замовлення(в дорогу/ в кафе) та містить список замовлень. Тобто Замовлення є абстракцією, де її місця окремі реалізації, а набір напоїв є імплементацією.
+
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/8%20Bridge/Task_hw1/src">Realization</a>
 
 <h3> Home work 8 Task 2 </h3>
-Проведно рефакторинг коду, із застосуванням шаблону проектування Міст.
+Проведно рефакторинг коду, із застосуванням шаблону проектування Міст.  
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/8%20Bridge/Task_hw2/src">Realization</a>
