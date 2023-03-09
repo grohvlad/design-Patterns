@@ -10,6 +10,7 @@ Mostly home assignments
 [Block 5 Prototype Method](#block-5-prototype-method)  
 [Block 6 Singleton Method](#block-6-singleton-method)  
 [Block 7 Adapter Method](#block-7-adapter-method)  
+[Block 8 Bridge Method](#block-8-bridge-method)  
 
 ---
 
@@ -142,3 +143,15 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 Створено адаптер для бібліотеки методом iз використанням класу переходу.
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/7%20Adapter/src/Task_hw2/src">Realization</a>
+
+
+## Block 8 Bridge Method
+
+<h3> Home work 8 Task 1 </h3>
+
+Проведно рефакторинг класів, із застосуванням шаблону проектування Міст.
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/8%20Bridge/Task_hw1/src">Realization</a>
+
+<h3> Home work 8 Task 2 </h3>
+Проведно рефакторинг коду, із застосуванням шаблону проектування Міст.
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/8%20Bridge/Task_hw2/src">Realization</a>
