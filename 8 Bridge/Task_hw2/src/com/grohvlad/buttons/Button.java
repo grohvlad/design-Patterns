@@ -3,7 +3,7 @@ package com.grohvlad.buttons;
 import com.grohvlad.sizes.Size;
 
 public abstract class Button {
-    public enum Types{ Checkbox, Dropdown, Radio}
+    public enum Types{ Checkbox, Dropdown, Radio, ImageButton}
 
     protected Types type;
     protected Size size;

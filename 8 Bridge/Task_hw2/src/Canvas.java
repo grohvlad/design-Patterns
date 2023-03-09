@@ -8,5 +8,8 @@ public class Canvas {
 
         Button radio = new Radio(new Medium());
         radio.draw();
+
+        Button but3 = new ImageButton(new UserSize());
+        but3.draw();
     }
 }
