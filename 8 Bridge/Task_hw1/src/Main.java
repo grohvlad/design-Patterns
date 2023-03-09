@@ -1,5 +1,9 @@
 import com.grohvlad.bevelage.*;
 import com.grohvlad.topping.*;
+import com.grohvlad.where.IOrder;
+import com.grohvlad.where.InCafe;
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,5 +18,14 @@ public class Main {
         beverage2.prepare();
         System.out.println(beverage2.cost());
         beverage2.drink();
+
+        IOrder order1 = new InCafe(
+                new ArrayList<>(){{
+                    add(beverage1);
+                    add(beverage2);
+                    add(new Coffee(new Milk()));
+                }}
+        );
+        order1.describeOrder();
     }
 }

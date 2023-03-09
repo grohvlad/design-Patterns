@@ -21,4 +21,8 @@ public abstract class ABeverage implements IBeverage {
     public int cost() {
         return this.cost + topping.getCost();
     }
+    @Override
+    public String getName(){
+        return beverage.name();
+    }
 }

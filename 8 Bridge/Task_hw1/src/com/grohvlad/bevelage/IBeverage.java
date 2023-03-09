@@ -4,4 +4,5 @@ public interface IBeverage {
     void prepare();
     void drink();
     int cost();
+    String getName();
 }
