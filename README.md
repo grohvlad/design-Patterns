@@ -14,6 +14,7 @@ Mostly home assignments
 [Block 9 Composite Method](#block-9-composite-method)  
 [Block 10 Decorator Method](#block-10-decorator-method)  
 [Block 11 Facade Method](#block-11-facade-method)  
+
 ---
 
 ## Block 1 UML OOP
@@ -213,5 +214,6 @@ Hello, World!
 
 <h3> Home work 11</h3>
 Проведено рефакторинг коду із застосуванням шаблону проєктування Фасад, щоб спростити роботу клієнта зі складною бібліотекою відеоконвертації.
+Практичним було б використання чи статичних методів компресій і т.д. чи патерна Одинак.
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/11%20Facade/Task_hw1/src">Realization</a>
