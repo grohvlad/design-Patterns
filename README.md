@@ -11,6 +11,7 @@ Mostly home assignments
 [Block 6 Singleton Method](#block-6-singleton-method)  
 [Block 7 Adapter Method](#block-7-adapter-method)  
 [Block 8 Bridge Method](#block-8-bridge-method)  
+[Block 9 Composite Method](#block-9-composite-method)  
 
 ---
 
@@ -162,3 +163,13 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 Проведно рефакторинг коду, із застосуванням шаблону проектування Міст.  
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/8%20Bridge/Task_hw2/src">Realization</a>
+
+
+## Block 9 Composite Method
+
+<h3> Home work 9 </h3>
+
+Проведено рефакторинг коду, із застосуванням шаблону проєктування Компонувальник так щоб програма могла розрахувати виплату заробітної плати працівникам супермаркету, що очолюється директором (менеджером) містить три відділи (м’ясний відділ, відділ молокопродуктів, кондитерський відділ), кожен з яких очолюється менеджером, та містить трьох співробітників-продавців.
+Із особливостей - є один клас бос, у котрого немає вищого керівництва, у менеджера, як і у продавця може ути керівник бос або менеджер. Продавець, у якого керівник бос вважається більш елітним (Для спеціальних замовлень)
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/9%20Composite/Task_hw1/src">Realization</a>
