@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48257bd-797b-4893-9797-b6e268f57319" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Task_hw1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_hw1/src/com/grohvlad/video_classes/VideoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw1/src/com/grohvlad/video_classes/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw1/src/com/grohvlad/video_classes/Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw1/src/com/grohvlad/video_classes/MPEG4CompressionCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw1/src/com/grohvlad/video_classes/MPEG4CompressionCodec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_hw1/src/com/grohvlad/video_classes/VideoFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_hw1/src/com/grohvlad/video_classes/VideoFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f48257bd-797b-4893-9797-b6e268f57319" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

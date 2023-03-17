@@ -15,7 +15,7 @@ public class Main {
         // оскільки у клієнта доступний лише кодек "mp4" потрібно провести
         // конвертацію "youtubevideo.ogg" з формату "ogg" у формат "mp4"
 
-        VideoFile videoFileConverted = VideoConverter.convert(videoFile, format);
+        VideoFile videoFileConverted = VideoConverter.convert(videoFile, new MPEG4CompressionCodec());
         videoFileConverted.play(new MPEG4CompressionCodec());
 
     }
