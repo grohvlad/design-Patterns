@@ -12,6 +12,8 @@ Mostly home assignments
 [Block 7 Adapter Method](#block-7-adapter-method)  
 [Block 8 Bridge Method](#block-8-bridge-method)  
 [Block 9 Composite Method](#block-9-composite-method)  
+[Block 10 Decorator Method](#block-10-decorator-method)  
+
 
 ---
 
@@ -173,3 +175,37 @@ I have changed a bit the task, add some methods in purpose to make this task mor
 Із особливостей - є один клас бос, у котрого немає вищого керівництва, у менеджера, як і у продавця може ути керівник бос або менеджер. Продавець, у якого керівник бос вважається більш елітним (Для спеціальних замовлень)
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/9%20Composite/Task_hw1/src">Realization</a>
+
+
+## Block 10 Decorator Method
+
+<h3> Home work 10 Task 1 </h3>
+Розглянуто клас PrintableString, що є контейнером для поля типу рядок та містить єдиний публічний метод для виведення цього рядка у консоль.  
+
+Для цього класу описано набір декораторів:  
+
+PostComaDecorator – декоратор для додавання знаку кома у кінець рядка.  
+PostEndlDecorator – декоратор для додавання знаку кома у кінець рядка.  
+PostExclaimDecorator – декоратор для додавання знаку оклику у кінець рядка.  
+PostWordDecorator – декоратор для додавання слова у кінець рядка.  
+PreWordDecorator – декоратор для додавання слова у початок рядка.  
+Використовуючи цей набір декораторів виведено у консоль вираз  
+Hello, World!  
+починаючи з порожнього базового рядка.
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/10%20Decorator/Task_hw1/src">Realization</a>
+
+<h3> Home work 10 Task 2 </h3>
+
+Розглядається Beverage (Напій) та його нащадки Espresso (Еспресо), DarkRoast (Чорна кава), Decaf (Кава без кофеїну), що мають методи description() та cost(), що повертають опис кави та її вартість відповідно.
+
+Опиcано декоратори для додавання до екземплярів вищенаведених класів додаткові наповнювачі – молоко, цукор, вершки, крем.
+
+Використовуючи цей декоратор, створено такі напої:
+
+Еспресо з двома порціями цукру.  
+Чорну каву з вершками та двома порціями цукру.  
+Чорну каву з кремом та порцією цукру.  
+Кава без кофеїну з молоком та двома порціями цукру.  
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/10%20Decorator/Task_hw2/src">Realization</a>
