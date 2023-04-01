@@ -224,4 +224,4 @@ Hello, World!
 <h3> Home work 12</h3>
 Реалізовано шаблон проєктування Легковаговик для повторного використання створених раніше об'єктів для різних частин автомобіля. У реалізації легковаговик використовується для курма та мотора, при чому клас кермо повністю вкладається в легковаговик (WheelFlyweight), а для мотора ще додається клас Engine, що містить у собі легковаговик(EngineFlyweight), у класі  додається лише ID мотора, який для кожного різний.
 
-<a href="https://github.com/grohvlad/design-Patterns/tree/main/11%20Facade/Task_hw1/src">Realization</a>
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/12%20Flyweight/Task_hw1/src">Realization</a>
