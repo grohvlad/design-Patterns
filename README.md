@@ -232,5 +232,5 @@ Hello, World!
 <h3> Home work 13</h3>
 Реалізовано шаблон проєктування Замісник, таким чином, що уникнено завантаження зображень з носія інформації, до безпосереднього їхнього виведення на екран.
 
-<a href="https://github.com/grohvlad/design-Patterns/tree/main/13%20Proxy/Task_hw1/src">Realization</a>
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/13%20Proxy/src">Realization</a>
 
