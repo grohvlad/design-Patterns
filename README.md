@@ -16,6 +16,7 @@ Mostly home assignments
 [Block 11 Facade Method](#block-11-facade-method)  
 [Block 12 Flyweight Method](#block-12-flyweight-method)  
 [Block 13 Proxy Method](#block-13-proxy-method)  
+[Block 14 Chain of Responsibility Method](#block-14-chain-of-responsibility-method)  
 
 ---
 
@@ -234,3 +235,21 @@ Hello, World!
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/13%20Proxy/src">Realization</a>
 
+##Block 14 Chain of Responsibility Method
+
+<h3> Home work 14 Task 1</h3>
+Реалізовано механізм аутентифікації для надання прав користувачам залежно від їхнього типу на базі логіну та паролю
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/14%20Chain%20of%20Responsibility/Task_hw1/src">Realization</a>
+
+<h3> Home work 14 Task 2</h3>
+Реалізовано програму для (симуляції) відкриття файлів різних типів. Реалізацію здійснено використовуючи шаблон проєктування Ланцюжок обов’язків.
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/14%20Chain%20of%20Responsibility/Task_hw2/src">Realization</a>
+
+<h3> Home work 14 Task 3</h3>
+Реалізовано симулятор, що опрацьовує запити на виконання арифметичних операцій. Кожен запит складається з двох чисел та типу операції, що має над ними виконатися.
+
+Реалізацію симулятора здійснено з використанням шаблону проєктування Ланцюжок обов'язків. Не враховано можливі наявності дужок -3-(-4) та обмежена точність, бо числа розглядаються у форматі float.
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/14%20Chain%20of%20Responsibility/Task_hw3/src">Realization</a>
