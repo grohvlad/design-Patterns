@@ -235,7 +235,7 @@ Hello, World!
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/13%20Proxy/src">Realization</a>
 
-##Block 14 Chain of Responsibility Method
+## Block 14 Chain of Responsibility Method
 
 <h3> Home work 14 Task 1</h3>
 Реалізовано механізм аутентифікації для надання прав користувачам залежно від їхнього типу на базі логіну та паролю
