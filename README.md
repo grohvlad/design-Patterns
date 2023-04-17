@@ -17,6 +17,7 @@ Mostly home assignments
 [Block 12 Flyweight Method](#block-12-flyweight-method)  
 [Block 13 Proxy Method](#block-13-proxy-method)  
 [Block 14 Chain of Responsibility Method](#block-14-chain-of-responsibility-method)  
+[Block 15 Command Method](#block-15-command-method)  
 
 ---
 
@@ -253,3 +254,18 @@ Hello, World!
 Реалізацію симулятора здійснено з використанням шаблону проєктування Ланцюжок обов'язків. Не враховано можливі наявності дужок -3-(-4) та обмежена точність, бо числа розглядаються у форматі float.
 
 <a href="https://github.com/grohvlad/design-Patterns/tree/main/14%20Chain%20of%20Responsibility/Task_hw3/src">Realization</a>
+
+
+## Block 15 Command Method
+
+<h3> Home work 15 Task 1</h3>
+Змодельовано роботу пульта керування увімкнення та вимкнення світильників.
+
+Реалізовано універсальний пульт, що здійснює вимикання світла усіх світильників у системі.
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/15%20Command/Task_hw1/src">Realization</a>
+
+<h3> Home work 15 Task 3</h3>
+Змодельовано роботу пульта дистанційного керування для телевізора та радіоприймача. Реалізовано універсальний пульт, що вимикає всі пристрої в системі.
+
+<a href="https://github.com/grohvlad/design-Patterns/tree/main/15%20Command/Task_hw3/src">Realization</a>
